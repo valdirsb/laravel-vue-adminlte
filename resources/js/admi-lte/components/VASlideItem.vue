@@ -35,7 +35,7 @@
             <i v-else class="fa fa-angle-left pull-right"></i>
           </span>
         </a>
-        <ul class="treeview-menu" v-if="item.items.length > 0">
+        <ul class="treeview-menu" v-if="item.items">
           <router-link tag="li" v-for="(item2,index) in item.items" :data="item2" :key="index" :to="item2.router" v-if="item2.router && item2.router.name">
             <a>
               <i :class="item2.icon"></i> {{ item2.name }}
@@ -57,6 +57,8 @@
 </template>
 
 <script>
+// import '../lib/Tree'
+
 export default {
   name: 'va-slide-item',
   props: {
@@ -100,9 +102,8 @@ export default {
       default: ''
     }
   },
-  created () {
+  
 
-  },
   computed: {
     getType () {
       if (this.isHeader) {

@@ -15,7 +15,7 @@
 
     <section class="content">
       <transition name="page" mode="out-in">
-        <router-view></router-view>
+        <child />
       </transition>
     </section>
     <!-- /.content -->

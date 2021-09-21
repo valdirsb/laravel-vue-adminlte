@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
   <!-- Modal -->
   <div class="modal fade" id="bsModal" tabindex="-1" role="dialog" aria-labelledby="bsModalLabel" data-toggle="modal" data-backdrop="static" data-keyboard="false">
     <div class="modal-dialog" role="document">
@@ -85,5 +85,5 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style>
 </style>

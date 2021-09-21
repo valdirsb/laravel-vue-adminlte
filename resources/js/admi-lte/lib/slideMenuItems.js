@@ -236,9 +236,33 @@ module.exports = [
           {
             type: 'item',
             icon: 'fa fa-circle-o',
-            name: 'Teste',
+            name: 'Painel',
             router: {
-              name: 'Teste'
+              name: 'painel'
+            }
+          },
+          {
+            type: 'item',
+            icon: 'fa fa-circle-o',
+            name: 'Perfil',
+            router: {
+              name: 'painel.perfil'
+            }
+          },
+          {
+            type: 'item',
+            icon: 'fa fa-circle-o',
+            name: 'Pagina 2',
+            router: {
+              name: 'painel.pagina2'
+            }
+          },
+          {
+            type: 'item',
+            icon: 'fa fa-circle-o',
+            name: 'Pagina 3',
+            router: {
+              name: 'pagina3'
             }
           }
         ]

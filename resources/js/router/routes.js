@@ -14,6 +14,16 @@ export default [
 
   { path: '/home', name: 'home', component: page('home.vue') },
   { path: '/page2', name: 'page2', component: page('page2.vue') },
+
+  { path: '/painel/painel', name: 'painel', component: page('painel/index.vue') },
+  { path: '/painel/perfil', name: 'painel.perfil', component: page('painel/perfil.vue') },
+  { path: '/painel/pagina2', name: 'painel.pagina2', component: page('painel/pagina2.vue') },
+
+  { path: '/pagina3', name: 'pagina3', component: page('pagina3.vue') },
+
+  
+
+
   {
     path: '/settings',
     component: page('settings/index.vue'),

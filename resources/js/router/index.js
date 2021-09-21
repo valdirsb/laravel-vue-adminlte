@@ -31,7 +31,8 @@ function createRouter () {
   const router = new Router({
     scrollBehavior,
     mode: 'history',
-    routes
+    routes,
+    linkActiveClass: 'active'
   })
 
   router.beforeEach(beforeEach)

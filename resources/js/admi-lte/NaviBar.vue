@@ -274,8 +274,8 @@ export default {
       'remainTasksCount',
       'currentUser'
     ])
-  }
+  },
+  
 }
 
 </script>
-

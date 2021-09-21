@@ -10,6 +10,8 @@
 </template>
 
 <script>
+// import '../admi-lte/lib/Tree'
+
 import VANaviBar from '../admi-lte/NaviBar.vue'
 import VASlider from '../admi-lte/Slider.vue'
 import VAContentWrap from '../admi-lte/ContentWrap.vue'
@@ -18,7 +20,7 @@ import store from '../admi-lte/vuex/store.js'
 import slideMenuItems from '../admi-lte/lib/slideMenuItems.js'
 
 export default {
-  name: 'teste',
+  name: 'Painel',
   data () {
     return {
       slideMenuItems: slideMenuItems

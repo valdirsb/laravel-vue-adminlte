@@ -1,7 +1,9 @@
 /* import './admi-lte/lib/css'
 import './admi-lte/lib/script'
 import './admi-lte/lib/global' */
+
 // css files
+// import './admi-lte/lib/css'
 import 'vue2-admin-lte/src/lib/css'
 
 // js files
@@ -25,11 +27,11 @@ import '~/components'
 
 
 
-import EventBus from './admi-lte/lib/eventBus.js'
+// import EventBus from './admi-lte/lib/eventBus.js'
 
-Vue.config.productionTip = false
+// Vue.config.productionTip = false
 
-Vue.prototype.$bus = EventBus
+// Vue.prototype.$bus = EventBus
 
 /* eslint-disable no-new */
 new Vue({
