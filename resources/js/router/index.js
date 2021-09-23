@@ -40,6 +40,8 @@ function createRouter () {
   return router
 }
 
+
+
 /**
  * Global router guard.
  *
@@ -93,6 +95,11 @@ async function beforeEach (to, from, next) {
  * @param {Function} next
  */
 async function afterEach (to, from, next) {
+  setTimeout(() => {
+    const element = $('[data-widget="tree"]');
+    $.fn.tree.call(element);
+  },700);
+
   await router.app.$nextTick()
 
   router.app.$loading.finish()
