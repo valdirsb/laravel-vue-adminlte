@@ -17,16 +17,24 @@ import router from '~/router'
 import i18n from '~/plugins/i18n'
 import App from '~/components/App'
 
-
-
-
 import '~/plugins'
 import '~/components'
 
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 
-import EventBus from './admi-lte/lib/eventBus.js'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+
+
+library.add(fas, far)
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+
+import EventBus from './layouts/painel/lib/eventBus.js'
 
 Vue.config.productionTip = false
 
@@ -39,3 +47,4 @@ new Vue({
   router,
   ...App
 })
+

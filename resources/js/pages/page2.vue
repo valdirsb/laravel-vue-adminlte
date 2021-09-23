@@ -2,6 +2,8 @@
 <div>
 
     <h1>Teste</h1>
+    <font-awesome-icon :icon="['fas', 'bell']"/>
+    <font-awesome-icon :icon="['far', 'bell']"/>
 
 
 </div>
@@ -11,7 +13,7 @@
 <script>
 
 export default {
-    layout: 'teste',
+    layout: 'painel',
     
 }
 </script>

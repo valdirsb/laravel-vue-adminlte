@@ -21,16 +21,16 @@ import 'vue2-admin-lte/src/lib/script'
 // Global files
 import 'vue2-admin-lte/src/lib/global'
 
-import VANaviBar from '../admi-lte/NaviBar.vue'
-import VASlider from '../admi-lte/Slider.vue'
-import VAContentWrap from '../admi-lte/ContentWrap.vue'
-import Modal from '../admi-lte/components/Modal.vue'
-import store from '../admi-lte/vuex/store.js'
-// import store from '../store'
-import slideMenuItems from '../admi-lte/lib/slideMenuItems.js'
+import VANaviBar from './painel/NaviBar.vue'
+import VASlider from './painel/Slider.vue'
+import VAContentWrap from './painel/ContentWrap.vue'
+import Modal from '../components/painel/Modal.vue'
+// import store from '../admi-lte/vuex/store.js'
+import store from '../store/painel/store'
+import slideMenuItems from './painel/lib/slideMenuItems.js'
 
 export default {
-  name: 'teste',
+  name: 'painel',
   data () {
     return {
       slideMenuItems: slideMenuItems

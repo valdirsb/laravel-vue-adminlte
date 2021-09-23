@@ -11,7 +11,7 @@
 <script>
 
 export default {
-    layout: 'teste',
+    layout: 'painel',
     
 }
 </script>

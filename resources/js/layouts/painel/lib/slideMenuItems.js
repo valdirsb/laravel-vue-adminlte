@@ -48,6 +48,19 @@ module.exports = [
     ]
   },
   {
+    type: 'item',
+    icon: 'fa fa-users',
+    name: 'Clientes Cadastrados',
+    router: {
+      name: 'painel.clientes'
+    }
+  },
+  {
+    type: 'item',
+    isHeader: true,
+    name: 'CONFIGURAÇÕES'
+  },
+  {
     type: 'tree',
     icon: 'fa fa-cutlery',
     name: 'Cardapio',
@@ -140,19 +153,6 @@ module.exports = [
         ]
       }
     ]
-  },
-  {
-    type: 'item',
-    icon: 'fa fa-users',
-    name: 'Clientes Cadastrados',
-    router: {
-      name: 'painel.clientes'
-    }
-  },
-  {
-    type: 'item',
-    isHeader: true,
-    name: 'Configurações'
   },
   {
     type: 'item',
